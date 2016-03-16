@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <widget xlns  = "http://www.w3.org/ns/widgets"
+       xmlns:gap = "http://phonegap.com/ns/1.0"
+	   id        = "com.phonegap.axample1"
+	   versionCode ="10"
+	   version    = "1.0.0">
+	   
+	   <!--versionCode is optional and Androyd only -->
+	   
+	   <name>Aplicacion uno DATOSALUMNOS</name>name>
+	   
+	   <description>
+	      Aplicacion que muestra los DATOS del alumno
+		  </description>
+		  
+		  <Preference name="phonegap-version" value="3.1.0" />
+		  
+		  <author href="https://build.phonegap.com" email"support@phonegap.com">
+		  cristal nolasco valerio
+		  </author>
+		  
+		  <gap:plugin name"org.apache.cordova.device" vercion="0.2.12"/>
+		  <gap:plugin name="org.apache.cordova.vibration" version="0.3.0"/>
+		  <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6"/>
+		  
+		  <!--Colocar icono app -->
+		  <icon src"res/android/mdpi.png"/>
+		  </widget>
